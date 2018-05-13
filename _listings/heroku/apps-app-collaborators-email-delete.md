@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Heroku
-  description: Manage your Heroku apps, configs, collaborators &amp; resources
+  title: Heroku Delete Application Collaborators Email
+  description: Delete application collaborators email.
   version: "1"
 host: api.heroku.com
 basePath: /
