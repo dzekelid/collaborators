@@ -41,17 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/collaborators/master/_listings/github/repos-owner-repo-collaborators-user-put.md
-- name: Github Delete Repos Owner Repo Collaborators User
-  description: Remove collaborator.
+- name: Github Get Repos Owner Repo Collaborators User
+  description: Check if user is a collaborator
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Collaborators
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/repos-owner-repo-collaborators-user-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/repos-owner-repo-collaborators-user-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/repos-owner-repo-collaborators-user-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/repos-owner-repo-collaborators-user-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
