@@ -39,15 +39,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/collaborators/master/_listings/heroku/apps-app-collaborators-email-delete.md
-- name: Heroku Parameters Application Collaborators Email
-  description: Parameters application collaborators email.
+- name: Heroku Delete Application Collaborators Email
+  description: Delete application collaborators email.
   image: https://avatars3.githubusercontent.com/u/23211?v=4
   humanURL: https://www.heroku.com/
   baseURL: https://api.heroku.com//
   tags: Collaborators
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/apps-app-collaborators-email-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/apps-app-collaborators-email-delete.md
 x-common:
 - type: x-base
   url: https://api.heroku.com
