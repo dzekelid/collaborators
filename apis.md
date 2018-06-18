@@ -5,7 +5,7 @@ description: This is a repository of collaborators APIs, self-contained as a Git
   operations.
 image: http://template.streamdata.gallery/assets/collaborators.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-18"
 url: http://collaborators.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -15,6 +15,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/apis.yaml
 - name: GitHub
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/apis.yaml
+- name: AppVeyor CI
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/appveyor-ci/apis.yaml
+- name: Flat
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

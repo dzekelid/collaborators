@@ -1,24 +1,22 @@
 ---
 name: Heroku
 x-slug: heroku
-description: Heroku is the first and best multi-language cloud application platform,
-  or platform-as-a-service. Heroku allows developers to deploy, scale, and manage
-  their apps without needing to think about servers or systems administration. Over
-  one million applications have been deployed to Heroku.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
+description: Heroku is a platform as a service (PaaS) that enables developers to build,
+  run, and operate applications entirely in the cloud.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "6044"
 tags: Collaborators
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Heroku Parameters Application Collaborators
   x-api-slug: heroku
   description: Parameters application collaborators.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/collaborators
   tags: Parameters, Application, Collaborators
   properties:
@@ -27,8 +25,8 @@ apis:
 - name: Heroku Get Application Collaborators
   x-api-slug: heroku
   description: List collaborators for an app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/collaborators
   tags: Application, Collaborators
   properties:
@@ -37,8 +35,8 @@ apis:
 - name: Heroku Parameters Application Collaborators Email
   x-api-slug: heroku
   description: Parameters application collaborators email.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/collaborators/{email}
   tags: Parameters, Application, Collaborators, Email
   properties:
@@ -47,8 +45,8 @@ apis:
 - name: Heroku Delete Application Collaborators Email
   x-api-slug: heroku
   description: Delete application collaborators email.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com////apps/{app}/collaborators/{email}
   tags: Application, Collaborators, Email
   properties:
@@ -57,8 +55,8 @@ apis:
 - name: Heroku
   x-api-slug: heroku
   description: Learn about building, deploying and managing your apps on Heroku.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/211_logo.png
-  humanURL: https://www.heroku.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
   tags: Collaborators
   properties:
@@ -74,9 +72,17 @@ x-common:
 - type: x-command-line-interface
   url: https://devcenter.heroku.com/articles/heroku-command
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/heroku
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/heroku
 - type: x-developer
   url: https://devcenter.heroku.com/
+- type: x-email
+  url: pr@heroku.com
+- type: x-email
+  url: abuse@heroku.com
+- type: x-email
+  url: feedback@heroku.com
 - type: x-getting-started
   url: https://devcenter.heroku.com/start
 - type: x-github
@@ -85,7 +91,7 @@ x-common:
   url: https://status.heroku.com/incidents
 - type: x-java-library
   url: https://devcenter.heroku.com/categories/java
-- type: x-nodejs
+- type: x-node-js
   url: https://devcenter.heroku.com/categories/nodejs
 - type: x-php-library
   url: https://devcenter.heroku.com/categories/php
@@ -106,7 +112,11 @@ x-common:
 - type: x-terms-of-service
   url: https://www.heroku.com/policy/tos
 - type: x-twitter
+  url: https://twitter.com/heroku
+- type: x-twitter
   url: https://twitter.com/HerokuDevCenter
+- type: x-website
+  url: http://heroku.com
 - type: x-website
   url: https://www.heroku.com/
 include: []

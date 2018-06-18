@@ -37,6 +37,14 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
       responses:
         200:
           description: OK
@@ -66,6 +74,19 @@ paths:
       - in: header
         name: Accept
         description: Content type
+      - in: query
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: email
+        description: The email of the user to remove as a collaborator
+      - in: path
+        name: email
       responses:
         200:
           description: OK
