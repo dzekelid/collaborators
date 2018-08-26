@@ -38,4 +38,54 @@ paths:
       tags:
       - List
       - Collaborators
+    post:
+      summary: Add a new collaborator
+      description: |-
+        Share a score with a single user or a group. This API call allows to add, invite and update the collaborators of a document.
+        - To add an existing Flat user to the document, specify its unique identifier in the `user` property.
+        - To invite an external user to the document, specify its email in the `userEmail` property.
+        - To add a Flat group to the document, specify its unique identifier in the `group` property.
+        - To update an existing collaborator, process the same request with different rights.
+      operationId: addScoreCollaborator
+      x-api-path-slug: scoresscorecollaborators-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - New
+      - Collaborator
+  /scores/{score}/collaborators/{collaborator}:
+    delete:
+      summary: Delete a collaborator
+      description: Remove the specified collaborator from the score
+      operationId: removeScoreCollaborator
+      x-api-path-slug: scoresscorecollaboratorscollaborator-delete
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Collaborator
+    get:
+      summary: Get a collaborator
+      description: Get the information about a collaborator (User or Group).
+      operationId: getScoreCollaborator
+      x-api-path-slug: scoresscorecollaboratorscollaborator-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Collaborator
 ---

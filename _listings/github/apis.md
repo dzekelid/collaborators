@@ -8,13 +8,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Collaborators
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Github Get Repos Owner Repo Collaborators
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Collaborators
+  x-api-slug: reposownerrepocollaborators-get
   description: |-
     List.
     When authenticating as an organization owner of an organization-owned
@@ -23,64 +23,72 @@ apis:
     returned in the collaborators list.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/collaborators
-  tags: Repos, Owner, Repo, Collaborators
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/reposownerrepocollaborators-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/reposownerrepocollaborators-get-openapi.md
-- name: Github Delete Repos Owner Repo Collaborators User
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Collaborators User
+  x-api-slug: reposownerrepocollaboratorsuser-delete
   description: Remove collaborator.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/collaborators/{user}
-  tags: Repos, Owner, Repo, Collaborators, User
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/reposownerrepocollaboratorsuser-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/reposownerrepocollaboratorsuser-delete-openapi.md
-- name: Github Get Repos Owner Repo Collaborators User
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Collaborators User
+  x-api-slug: reposownerrepocollaboratorsuser-get
   description: Check if user is a collaborator
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/collaborators/{user}
-  tags: Repos, Owner, Repo, Collaborators, User
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/reposownerrepocollaboratorsuser-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/reposownerrepocollaboratorsuser-get-openapi.md
-- name: Github Put Repos Owner Repo Collaborators User
-  x-api-slug: github
+- name: GitHub - Put Repos Owner Repo Collaborators User
+  x-api-slug: reposownerrepocollaboratorsuser-put
   description: Add collaborator.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/collaborators/{user}
-  tags: Repos, Owner, Repo, Collaborators, User
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/reposownerrepocollaboratorsuser-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/reposownerrepocollaboratorsuser-put-openapi.md
-- name: Github
-  x-api-slug: github
-  description: GitHub brings together the worlds largest community of developers to
-    discover, share, and build better software. From open source projects to private
-    team repositories, were your all-in-one platform for collaborative development.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com//
-  tags: Collaborators
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/github/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog

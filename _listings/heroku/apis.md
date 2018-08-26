@@ -7,62 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku
 x-kinRank: "8"
 x-alexaRank: "6044"
 tags: Collaborators
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Heroku Parameters Application Collaborators
-  x-api-slug: heroku
-  description: Parameters application collaborators.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/collaborators
-  tags: Parameters, Application, Collaborators
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/appsappcollaborators-parameters-openapi.md
-- name: Heroku Get Application Collaborators
-  x-api-slug: heroku
-  description: List collaborators for an app.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/collaborators
-  tags: Application, Collaborators
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/appsappcollaborators-get-openapi.md
-- name: Heroku Parameters Application Collaborators Email
-  x-api-slug: heroku
-  description: Parameters application collaborators email.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/collaborators/{email}
-  tags: Parameters, Application, Collaborators, Email
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/appsappcollaboratorsemail-parameters-openapi.md
-- name: Heroku Delete Application Collaborators Email
-  x-api-slug: heroku
-  description: Delete application collaborators email.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/collaborators/{email}
-  tags: Application, Collaborators, Email
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/appsappcollaboratorsemail-delete-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: Learn about building, deploying and managing your apps on Heroku.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com//
-  tags: Collaborators
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/heroku/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://here.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://heroku.stack.network
 - type: x-base
   url: https://api.heroku.com
 - type: x-blog
