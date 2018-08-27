@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Collaborators
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,6 +29,111 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaborators-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaborators-get-openapi.md
+- name: Flat - Add a new collaborator
+  x-api-slug: scoresscorecollaborators-post
+  description: |-
+    Share a score with a single user or a group. This API call allows to add, invite and update the collaborators of a document.
+    - To add an existing Flat user to the document, specify its unique identifier in the `user` property.
+    - To invite an external user to the document, specify its email in the `userEmail` property.
+    - To add a Flat group to the document, specify its unique identifier in the `group` property.
+    - To update an existing collaborator, process the same request with different rights.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaborators-post-openapi.md
+- name: Flat - Delete a collaborator
+  x-api-slug: scoresscorecollaboratorscollaborator-delete
+  description: Remove the specified collaborator from the score
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaboratorscollaborator-delete-openapi.md
+- name: Flat - Get a collaborator
+  x-api-slug: scoresscorecollaboratorscollaborator-get
+  description: Get the information about a collaborator (User or Group).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaboratorscollaborator-get-openapi.md
+- name: Flat - Add a new collaborator
+  x-api-slug: scoresscorecollaborators-post
+  description: |-
+    Share a score with a single user or a group. This API call allows to add, invite and update the collaborators of a document.
+    - To add an existing Flat user to the document, specify its unique identifier in the `user` property.
+    - To invite an external user to the document, specify its email in the `userEmail` property.
+    - To add a Flat group to the document, specify its unique identifier in the `group` property.
+    - To update an existing collaborator, process the same request with different rights.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaborators-post-openapi.md
+- name: Flat - Delete a collaborator
+  x-api-slug: scoresscorecollaboratorscollaborator-delete
+  description: Remove the specified collaborator from the score
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaboratorscollaborator-delete-openapi.md
+- name: Flat - Get a collaborator
+  x-api-slug: scoresscorecollaboratorscollaborator-get
+  description: Get the information about a collaborator (User or Group).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaboratorscollaborator-get-openapi.md
+- name: Flat - Get a collaborator
+  x-api-slug: scoresscorecollaboratorscollaborator-get
+  description: Get the information about a collaborator (User or Group).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaboratorscollaborator-get-openapi.md
+- name: Flat - Delete a collaborator
+  x-api-slug: scoresscorecollaboratorscollaborator-delete
+  description: Remove the specified collaborator from the score
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaboratorscollaborator-delete-openapi.md
+- name: Flat - Add a new collaborator
+  x-api-slug: scoresscorecollaborators-post
+  description: |-
+    Share a score with a single user or a group. This API call allows to add, invite and update the collaborators of a document.
+    - To add an existing Flat user to the document, specify its unique identifier in the `user` property.
+    - To invite an external user to the document, specify its email in the `userEmail` property.
+    - To add a Flat group to the document, specify its unique identifier in the `group` property.
+    - To update an existing collaborator, process the same request with different rights.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
+  humanURL: http://flat.io
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collaborators/master/_listings/flat/scoresscorecollaborators-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://fitbit.api.gallery.streamdata.io
